@@ -16,6 +16,7 @@ before_script:
 script:
   - npm install
   - npm run build
+  - cp dist/ng-hello/index.html dist/ng-hello/404.html
 deploy:
   provider: pages
   skip_cleanup: true
