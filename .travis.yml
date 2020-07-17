@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-  - "14.5"
+  - "14.0"
 branches:
   only:
-    - development
+    - master
 cache:
   directories:
   - node_modules
@@ -20,4 +20,4 @@ deploy:
   target-branch: gh-pages
   verbose: true
   on:
-    branch: development
+    branch: master
