@@ -16,6 +16,8 @@ before_script:
 script:
   - npm install
   - npm run build
+  - ls -l
+  - ls -l dist/ng-hello
   - cp dist/ng-hello/index.html dist/ng-hello/404.html
 deploy:
   provider: pages
