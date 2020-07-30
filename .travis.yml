@@ -33,5 +33,4 @@ deploy:
     skip_cleanup: true
     keep_history: true
     on:
-      branch: master
-      tags: false
+      tags: true
