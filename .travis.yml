@@ -11,7 +11,7 @@ cache:
   - node_modules
 before_install:
 - export TZ='Asia/Shanghai'
-- export TRAVIS_TAG=$GIT_TAG
+- export TRAVIS_TAG=v0.1.0-alpha
 before_script:
   - npm install -g @angular/cli
 script:
